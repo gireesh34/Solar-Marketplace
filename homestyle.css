@@ -113,7 +113,9 @@ nav ul li a {
     background-color: #FFD700; /* Darker orange on hover */
 }
 
-
+@media only screen and (max-width:600px){
+    
+}
 
 footer {
     background-color: #009E60;
