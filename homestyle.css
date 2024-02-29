@@ -113,7 +113,14 @@ nav ul li a {
     background-color: #FFD700; /* Darker orange on hover */
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:400px){
+    body{
+        text-align: center;
+    }
+    .hero{
+        background-size: cover;
+        background-position: center;
+    }
     
 }
 
