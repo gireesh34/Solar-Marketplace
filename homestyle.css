@@ -10,7 +10,7 @@ body {
 header {
     background-color: #009E60;
     color: #fff;
-    padding: 10px;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 nav ul li a {
@@ -40,12 +40,12 @@ nav ul li a {
     background-position: center;
     color: #FFFFFF;
     text-align: center;
-    padding: 100px 0; /* Adjust padding as needed */
+    padding: 10rem 0; /* Adjust padding as needed */
 }
 .hero-content {
     position: relative; /* Ensure content positioning */
     z-index: 1; /* Ensure content is on top of overlay */
-    padding: 20px;
+    padding: 2rem;
 }
 
 .overlay {
@@ -62,16 +62,16 @@ nav ul li a {
 
 #products {
     background-color: #FFFFFF;
-    padding: 50px;
+    padding: 5rem;
 .featured-products-heading {
     text-align: center;
 }
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns */
-    gap: 20px; /* Gap between products */
+    gap: 2rem; /* Gap between products */
     justify-content: center; /* Center align items horizontally */
-    padding: 20px; /* Padding around the product grid */
+    padding: 2rem; /* Padding around the product grid */
 }
 }
 
@@ -86,16 +86,16 @@ nav ul li a {
 
 .product {
     display: inline-block;
-    margin-right: 40px;
+    margin-right: 4rem;
 }
 
 .product img {
-    width: 275px;
+    width: 27.5rem;
     height: auto;
-    border: 1px solid #ccc;
+    border: 0.1rem solid #ccc;
 }
 .buttons {
-    margin-top: 10px;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -103,32 +103,31 @@ nav ul li a {
     background-color: #FFA500; /* Light orange */
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 1rem 2rem;
+    margin-right: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .add-to-cart-btn:hover, .buy-now-btn:hover {
     background-color: #FFD700; /* Darker orange on hover */
 }
 
-@media only screen and (max-width:400px){
-    body{
-        text-align: center;
+@media only screen and (max-width:998px){
+    html{
+        font-size: 55%;
     }
-    .hero{
-        background-size: cover;
-        background-position: center;
+@media only screen and (max-width:768px){
+    html{
+        font-size: 45%;
     }
-    
-}
+
 
 footer {
     background-color: #009E60;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     
     bottom: 0;
     width: 100%;
